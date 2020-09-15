@@ -24,8 +24,10 @@ function MapMap() {
 
     var geocoder = new MapboxGeocoder({
       accessToken: mapboxgl.accessToken,
-      types: 'country,region,place,postcode,locality,neighborhood'
+      mapboxgl: mapboxgl
     });
+
+    geocoder.onAdd(map);
        
     geocoder.addTo('.geocoder');
 
