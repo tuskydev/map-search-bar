@@ -15,6 +15,7 @@
 `
 npm install mapbox-gl --save
 `
+
 `
 npm install --save @mapbox/mapbox-gl-geocoder
 `
