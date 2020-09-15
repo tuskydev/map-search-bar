@@ -18,9 +18,9 @@
 ### Image of Search-bar outside of Map and search recommendation preview
 ![image](https://user-images.githubusercontent.com/52723004/93210811-4536d880-f72e-11ea-990b-89018003fe43.png)
 
-### Steps to recreate:
+## Steps to recreate:
 
-#### In console:
+### In console:
 `
 npm install mapbox-gl --save
 `
@@ -28,12 +28,12 @@ npm install mapbox-gl --save
 `
 npm install --save @mapbox/mapbox-gl-geocoder
 `
-##### Add these lines to the App.js file:
+### Add these lines to the App.js file:
 `
 import mapboxgl from 'mapbox-gl';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 `
-##### Choose any example code from the Docs here and adjust to the best fit.
+### Choose any example code from the Docs here and adjust to the best fit.
 `
 https://docs.mapbox.com/mapbox-gl-js/example/`
