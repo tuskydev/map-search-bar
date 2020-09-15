@@ -1,0 +1,25 @@
+#map {
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  margin-top: 75px;
+}
+
+.geocoder {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  min-width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background: lightgray;
+}
